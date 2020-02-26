@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>About HTML</title> 
+  <link rel="stylesheet" href="abouthtml.css">
+  <div class="topnav"> 
+    <a href="index.html" >About Me</a> 
+    <a href="location.html">Address</a> 
+    <a href="qualifications.html">Qualifications</a> 
+    <a href="courses.html">Courses</a> 
+    <a href="abouthtml.html" class="active">About HTML</a> 
+   </div> 
+  <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin:10px,10px;
+}
+
+td, th {
+  border: 2px solid #ffffff;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color:#E6E6FA;
+}
+tr:nth-child(odd){
+  background-color: #ffffff
+}
+</style> 
+</head>
+<body>
+  <h1>Define HTML</h1> 
+  <ul style="list-style-type:disc;"> 
+   <li><b>HTML stands for Hypertext Markup Language</b></li> 
+   <li><b>HTML describes the structure of a Web page</b></li> 
+   <li><b>HTML can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</b></li> 
+   <li><b>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.</b></li> 
+   <li><b>HTML consists of a series of elements</b></li> 
+   <li><b>HTML elements tell the browser how to display the content</b></li> 
+  </ul> 
+  <br> 
+  <p><a href="#1">HTML Elements</a></p> 
+  <p><a href="#2">HTML Attributes</a></p> 
+  <p><a href="#5">HTML Styles</a></p> 
+  <p><a href="#8">HTML Comments</a></p> 
+  <p><a href="#10">HTML CSS</a></p> 
+  <p><a href="#13">HTML Classes</a></p> 
+  <p><a href="#14">HTML ID</a></p> 
+  <h2 id="1">HTML Elements</h2> 
+  <p>It is a type of HTML component which add semantics and formatting to parts of document (e.g., make text bold, organize it into paragraphs, lists and tables, or embed hyperlinks and images). Each element can have HTML attributes specified. Elements can also have content, including other elements and text. Each element is shown by the tag . To start an element we use opening tag and to end an element we use closing tag . <br> <b>Here is the list of various tags:</b> </p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <th>Tags</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>&lt; a &gt;</td> 
+     <td>Defines a hyperlink</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; b &gt;</td> 
+     <td>Bolds a text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; br &gt;</td> 
+     <td>To break a line</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; del &gt;</td> 
+     <td>To show a deleted text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; div &gt;</td> 
+     <td>Div tag defines a section or box in html file in order to style that section through CSS.</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; em &gt;</td> 
+     <td>Defines emphasized text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; Head &gt;</td> 
+     <td>To keep meta data</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; i &gt;</td> 
+     <td>Defines italic text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; ins &gt;</td> 
+     <td>To Underline a text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; mark &gt;</td> 
+     <td>Highlights a text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; p &gt;</td> 
+     <td>For writing paragraphs</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; pre &gt;</td> 
+     <td>Defines a preformatted text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; strong &gt;</td> 
+     <td>Defines important text</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; sub &gt;</td> 
+     <td>Defines subscript</td> 
+    </tr> 
+    <tr> 
+     <td>&lt; sup &gt;</td> 
+     <td>Defines superscript</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2 id="2">HTML Attributes</h2> 
+  <p> Attributes provide additional information about an element. Attributes are always specified in the start tag and usually come in name/value pairs like: name="value".<br> <b>List of various attributes</b></p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <th>Attribute</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <th>alt</th> 
+     <td>Specifies an alternative text for an image, when the image cannot be displayed</td> 
+    </tr> 
+    <tr> 
+     <th>href</th> 
+     <td>Hypertext REFerence is used to create a link to another page</td> 
+    </tr> 
+    <tr> 
+     <th>src</th> 
+     <td>specify the URL of the media resource</td> 
+    </tr> 
+    <tr> 
+     <th>style</th> 
+     <td>Specifies an inline CSS style for an element</td> 
+    </tr> 
+    <tr> 
+     <th>title</th> 
+     <td>used to display a tooltip</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2 id="5">HTML Styles</h2> 
+  <p>Styling of HTML elements can be done with the help of style attribute.<br><b>Syntax of style attribute is:</b> <code>&lt; tagname style="property:value";&gt;</code><br> <br><b>List of properties:</b></p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <th>Property</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <th>background-color</th> 
+     <td>To set background color of HTML elements</td> 
+    </tr> 
+    <tr> 
+     <th>color</th> 
+     <td>Defines the text color for an HTML element</td> 
+    </tr> 
+    <tr> 
+     <th>font-family</th> 
+     <td>Defines the font of text</td> 
+    </tr> 
+    <tr> 
+     <th>font-size</th> 
+     <td>Sets the text size</td> 
+    </tr> 
+    <tr> 
+     <th>text-align</th> 
+     <td>Sets the text alignment</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2 id="8">HTML Comments</h2> 
+  <p>HTML comment begins with &lt;-- and ends with --&gt;. Comments are visible to anyone that views the page source code , but are not rendered when the HTML document is rendered by a browser.</p> 
+  <h2 id="10">HTML CSS</h2> 
+  <p>CSS stands for Cascading Style Sheets.It is used for styling various HTML elements.<br> <b>CSS can be added to HTML elements in 3 ways:<b> </b></b></p> 
+  <table> 
+   <tbody> 
+    <tr> 
+     <th>Inline</th> 
+     <td>By using the style attribute in HTML elements</td> 
+    </tr> 
+    <tr> 
+     <th>Internal</th> 
+     <td>By using style element in head section of html file </td> 
+    </tr> 
+    <tr> 
+     <th>External</th> 
+     <td>By using an external CSS file and link it in head section of html file </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2 id="13">HTML Classes</h2> 
+  <p>Class attribute is used to give same styling effects to all the HTML elements having same class name. To select elements with a specific class for styling , write a '.' character, followed by the name of class.</p> 
+  <h2 id="14">HTML ID</h2> 
+  <p>ID stands for identifiers . The id attribute is a unique identifier which is used to specify the element in the HTML document. In CSS, to select an element with a specific id, # symbol is used followed by the id of the element.</p> 
+ </body>
+</html>
